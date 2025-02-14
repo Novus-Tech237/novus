@@ -49,17 +49,12 @@ const NavigationBar = () => {
                 </nav>
                 {/* Additional style for the mobile menu with animation */}
                 <div 
-                    className={`md:hidden text-center transition-all duration-300 ease-in-out ${isMenuOpen ? 'max-h-[200px] opacity-100' : 'max-h-0 opacity-0 overflow-hidden'}`}
+                    className={`md:hidden flex flex-col text-center transition-all duration-300 ease-in-out text-white font-semibold items-center gap-y-[1rem] ${isMenuOpen ? 'max-h-[200px] opacity-100' : 'max-h-0 opacity-0 overflow-hidden'}`}
                 >
-                    <Link href="/" className="block py-2 text-white hover:text-blue-600">Home</Link>
-                    <Link href="/about" className="block py-2 text-white hover:text-blue-600">About Us</Link>
-                    <Link href="/courses" className="block py-2 text-white hover:text-blue-600">Courses</Link>
-                    <Link 
-                        href="/splash" 
-                        className="block py-2 px-4 bg-blue-500 text-white rounded-full hover:bg-blue-600 mx-auto text-center w-1/3" // Set width to 75% of the parent
-                    >
-                        Get Started
-                    </Link>
+                    <a href="/" className="hover:text-blue-600 transition cursor-pointer pt-2">Home</a>
+                        <a className="hover:text-blue-600 transition cursor-pointer">About Us</a>
+                        <a className="hover:text-blue-600 transition cursor-pointer" onClick={()=>smoothScroll("service")}>Services</a>
+                        <a className="hover:text-blue-600 transition cursor-pointer" onClick={()=>smoothScroll("contact")}>Contact Us</a>
                 </div>
             </div>
         </header>

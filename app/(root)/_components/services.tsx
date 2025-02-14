@@ -10,7 +10,7 @@ const ServicePage = () => {
                 <div className="md:px-32 px-10 ">
                     <div className="md:py-10">
                         <div className="container flex  flex-col md:justify-center items-center md:p-8 p-4">
-                            <div className="text-center md:px-[15rem] ">
+                            <div className="text-center md:px-[10rem] ">
                                 <span>Innovate</span>
                                 <h1 className="text-4xl font-bold pt-4">Transforming Ideas into Digital Reality</h1>
                                 <p className="pt-4">Our expertise lies in crafting bespoke websites that not only look stunning but also function seamlessly. We ensure your online presence is impactful and engaging.</p>
@@ -33,7 +33,7 @@ const ServicePage = () => {
                                     description={"Our graphic design services enhance your visual storytelling."}
                                 />
                             </div>
-                            <div className="py-5">
+                            <div className="py-5 md:pt-[4rem]">
                         <h1 className="text-2xl font-bold text-center py-8">Novus Technologies Board Of Trustees</h1>
                         <div className="flex flex-col md:flex-row gap-8">
                             <Card src={"/Malik.jpg"} title={"Achidi Malik-Al Fayçal"} description={"Founder & CEO - Frontend Developer"} />
