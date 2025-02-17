@@ -30,7 +30,7 @@ const CustomCard = ({ src, title, description }: CardProps) => {
 export function CarouselSize() {
   const items = [
     {
-      src: "/projects/solux.png",
+      src: "/projects/Solux.png",
       title: "Solux - Online | IT E Learning Platform",
       description:
         "Solux the IT E Learning Platform that helps young developers to illuminate their journey in the aspect of project development and coding",
