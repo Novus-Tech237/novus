@@ -15,6 +15,7 @@ const Card = ({src, title, description}: CardProps) => {
                 width={400}
                 alt={title}
                 className="rounded"
+                loading="eager"
             />
             <h3 className="font-bold pt-8 px-10 text-center text-xl">{title}</h3>
             <p className="pt-4 text-center text-xs w-[250px]">{description}</p>

@@ -17,7 +17,8 @@ const CustomCard = ({ src, title, description }: CardProps) => {
           height={150}
           width={400}
           alt={title}
-          className="rounded  "
+          className="rounded"
+          loading="eager"
         />
         <h3 className="font-semibold pt-4 text-center text-lg">{title}</h3>
         <p className="pt-2 text-sm">{description}</p>
