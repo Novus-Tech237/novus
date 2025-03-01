@@ -95,9 +95,11 @@ const SectionThree = () => {
                                     </motion.div>
 
                                     <div className="flex items-center gap-4 pt-[3rem]">
+                                    <RegisterLink>
                                         <Button className="bg-purple-800 text-white hover:bg-purple-800">
-                                            <RegisterLink>Get Started</RegisterLink>
+                                            Get Started
                                         </Button>
+                                        </RegisterLink>
                                         <motion.button
                                             whileHover={{ scale: 1.05 }}
                                             className="bg-white text-purple-800 border border-purple-800 p-[5px] px-[1rem]  rounded">
