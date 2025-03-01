@@ -1,6 +1,9 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import QueryProvider from '@/context/query-provider'
+import { ThemeProvider } from '@/context/theme-provider'
+import { Toaster } from "@/components/ui/toaster";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,7 +22,20 @@ export default function RootLayout({
       <head>
       <link rel="icon" href='/logo.png'/>
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <QueryProvider>
+        <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+          >
+          {children}
+
+          </ThemeProvider>
+          <Toaster/>
+        </QueryProvider>
+      </body>
     </html>
   )
 }

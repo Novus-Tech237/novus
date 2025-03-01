@@ -53,21 +53,23 @@ const SectionTwo = () => {
         <>
             <div className="h-full md:px-2 overflow-hidden">
                 <div className="md:px-32 md:py-10 px-10 py-5">
-                <div className="mb-[60px]">
+                    <div className="mb-[60px]">
                         <span className="subheading">Projects</span>
                     </div>
                     <div className="mt-10">
-                        <div className="container flex flex-col md:justify-between items-center p-8">
+                        <div className="flex flex-col md:justify-between items-center p-8">
                             <div className="flex md:flex-row flex-col items-center md:gap-[10rem] gap-[4rem] justify-around">
                                 <motion.div
-
+                                    initial={{ opacity: 0, x: -50 }}
+                                    whileInView={{ opacity: 1, x: 0 }}
+                                    transition={{ duration: 1.0, ease: "easeOut" }}
                                 >
                                     <Image
                                         src={"/Ex.png"}
                                         alt="achidi-malik-novus"
                                         width={500}
                                         height={600}
-                                        
+
                                     />
                                 </motion.div>
                                 <div className="md:w-[600px] flex flex-col gap-8">
@@ -96,7 +98,7 @@ const SectionTwo = () => {
 
 
                         </div>
-                      
+
                     </div>
                 </div>
 

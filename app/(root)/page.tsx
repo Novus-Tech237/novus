@@ -10,6 +10,7 @@ import SectionTwo from "./_components/section-two";
 import ServicePage from "./_components/services";
 import FAQPage from "./faq";
 import { ChevronUp } from "lucide-react";
+import SectionThree from "./_components/section-three";
 
 const ScrollToTopButton = () => {
     const [isVisible, setIsVisible] = useState(false);
@@ -68,6 +69,9 @@ const NovusHomePage = () => {
                 </section>
                 <section className="min-h-[720px] w-full" id="service">
                     <ServicePage />
+                </section>
+                <section className="min-h-[720px] bg-[#f9eafdb0] w-full">
+                    <SectionThree />
                 </section>
                 <section className="min-h-[720px] bg-[#f9eafdb0] w-full">
                     <SectionTwo />

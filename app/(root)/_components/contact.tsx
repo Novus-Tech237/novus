@@ -11,7 +11,7 @@ const NovusContactUs = () => {
       transition={{ duration: 0.8, ease: "easeOut" }}
       viewport={{ once: true }}
     >
-      <div className="container md:flex md:justify-evenly items-center h-full">
+      <div className="md:flex md:justify-evenly items-center h-full">
       
         <div className="p-8">
           
