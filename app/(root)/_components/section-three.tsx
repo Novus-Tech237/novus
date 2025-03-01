@@ -45,8 +45,8 @@ const SectionThree = () => {
             setAchievementCount(0);
 
             // Animate each value
-            animateValue(0, 708, 8000, setArticleCount);
-            animateValue(0, 87.6, 1900, setAchievementCount);
+            animateValue(0, 708, 800, setArticleCount);
+            animateValue(0, 87.6, 1200, setAchievementCount);
         }
     }, [inView]);
 
