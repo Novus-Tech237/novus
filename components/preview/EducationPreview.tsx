@@ -47,7 +47,7 @@ const EducationPreview: FC<PropsType> = ({ resumeInfo, isLoading }) => {
               </h5>
               <span className="text-[13px]">
                 {education?.startDate}
-                {education?.startDate && " - "}
+                {education?.startDate && " to "}
                 {education?.endDate}
               </span>
             </div>

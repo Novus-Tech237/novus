@@ -52,7 +52,7 @@ const ExperiencePreview: FC<PropsType> = ({ resumeInfo, isLoading }) => {
               </h5>
               <span className="text-[13px]">
                 {experience?.startDate}
-                {experience?.startDate && " - "}
+                {experience?.startDate && " to "}
                 {experience?.currentlyWorking ? "Present" : experience?.endDate}
               </span>
             </div>
