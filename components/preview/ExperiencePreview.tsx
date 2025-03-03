@@ -43,14 +43,14 @@ const ExperiencePreview: FC<PropsType> = ({ resumeInfo, isLoading }) => {
               className="flex items-start 
             justify-between mb-2"
             >
-              <h5 className="text-[13px]">
+              <h5 className="text-sm">
                 {experience?.companyName}
                 {experience?.companyName && experience?.city && ", "}
                 {experience?.city}
                 {experience?.city && experience?.state && ", "}
                 {experience?.state}
               </h5>
-              <span className="text-[13px]">
+              <span className="text-sm">
                 {experience?.startDate}
                 {experience?.startDate && " to "}
                 {experience?.currentlyWorking ? "Present" : experience?.endDate}

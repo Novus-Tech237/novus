@@ -40,12 +40,12 @@ const EducationPreview: FC<PropsType> = ({ resumeInfo, isLoading }) => {
               {education?.universityName}
             </h5>
             <div className="flex items-start justify-between">
-              <h5 className="text-[13px]">
+              <h5 className="text-sm">
                 {education?.degree}
                 {education?.degree && education?.major && " in "}
                 {education?.major}
               </h5>
-              <span className="text-[13px]">
+              <span className="text-sm">
                 {education?.startDate}
                 {education?.startDate && " to "}
                 {education?.endDate}
