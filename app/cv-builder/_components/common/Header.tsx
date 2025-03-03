@@ -53,7 +53,7 @@ const Header = () => {
               <span
                 className="font-normal
                text-black/50
-               dark:text-primary-white"
+               dark:text-white"
               >
                 Hi,
               </span>
