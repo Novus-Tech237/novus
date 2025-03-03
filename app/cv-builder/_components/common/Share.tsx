@@ -83,7 +83,7 @@ const Share = () => {
           variant="secondary"
           className="bg-white border gap-1
                    dark:bg-gray-800 !p-2
-                    lg:w-auto lg:p-4 dark:text-black"
+                    lg:w-auto lg:p-4 "
         >
           <div className="flex items-center gap-1">
             <ShareIcon size="17px" />
@@ -93,7 +93,7 @@ const Share = () => {
         </Button>
       </PopoverTrigger>
       <PopoverContent
-        className="bg-background"
+        className="bg-background dark:text-black"
         align="end"
         alignOffset={0}
         forceMount
