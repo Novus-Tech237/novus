@@ -83,7 +83,7 @@ const Share = () => {
           variant="secondary"
           className="bg-white border gap-1
                    dark:bg-gray-800 !p-2
-                    lg:w-auto lg:p-4"
+                    lg:w-auto lg:p-4 dark:text-black"
         >
           <div className="flex items-center gap-1">
             <ShareIcon size="17px" />
