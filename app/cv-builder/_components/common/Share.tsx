@@ -93,7 +93,7 @@ const Share = () => {
         </Button>
       </PopoverTrigger>
       <PopoverContent
-        className="bg-background dark:text-black"
+        className="bg-background"
         align="end"
         alignOffset={0}
         forceMount
@@ -160,7 +160,7 @@ const Share = () => {
               className="
             w-full h-8 !bg-black text-xs 
             dark:!bg-primary
-            gap-1 font-semibold text-white
+            gap-1 font-semibold text-white dark:text-black
             "
               type="button"
               onClick={() => handleClick("public")}
