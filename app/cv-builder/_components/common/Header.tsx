@@ -53,15 +53,15 @@ const Header = () => {
               <span
                 className="font-normal
                text-black/50
-               dark:text-primary-foreground"
+               dark:text-primary-white"
               >
                 Hi,
               </span>
               <h5
                 className="font-bold text-black 
-              dark:text-primary-foreground"
+              dark:text-white"
               >
-                {user?.given_name} {user?.family_name}
+                {user?.given_name}
               </h5>
             </div>
           ) : null}
