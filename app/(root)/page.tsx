@@ -64,22 +64,22 @@ const NovusHomePage = () => {
                     </div>
                     <NovusHeader />
                 </div>
-                <section className="min-h-[720px] bg-[#d0e5fd77] w-full">
+                <section className="min-h-[720px] dark:text-black bg-purple-100  w-full">
                     <SectionOne />
                 </section>
-                <section className="min-h-[720px] w-full" id="service">
+                <section className="min-h-[720px] dark:text-black w-full bg-white"  id="service">
                     <ServicePage />
                 </section>
-                <section className="min-h-[720px] bg-[#f9eafdb0] w-full">
+                <section className="min-h-[720px] dark:text-black bg-purple-100  w-full">
                     <SectionThree />
                 </section>
-                <section className="min-h-[720px] bg-[#f9eafdb0] w-full">
+                <section className="min-h-[720px] dark:text-black bg-white w-full">
                     <SectionTwo />
                 </section>
-                <section className="min-h-[720px] w-full">
+                <section className="min-h-[720px] dark:text-black bg-white w-full">
                     <FAQPage />
                 </section>
-                <section className="min-h-[650px] bg-[#f9eafdb0] w-full" id="contact">
+                <section className="min-h-[650px] dark:text-black bg-purple-100 w-full" id="contact">
                     <NovusContactUs />
                 </section>
                 <section className="min-h-[450px] bg-[#080729] w-full">

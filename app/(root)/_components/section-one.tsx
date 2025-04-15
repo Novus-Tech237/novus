@@ -8,20 +8,21 @@ import { Info } from "lucide-react";
 const SectionOne = () => {
     return (
         <>
-            <div className="h-full md:px-2 overflow-hidden">
+            <div className="h-full md:px-2 overflow-hidden ">
                 <div className="md:px-32 md:py-10 px-10 py-5">
                     <div className="mb-[60px]">
                         <span className="subheading">Starter </span>
                     </div>
                     <div className="mt-10">
-                        <div className="flex md:flex-row flex-col md:justify-evenly items-center p-8">
-                        <motion.div initial={{ x: 100, opacity: 0 }}
+                        <div className="flex flex-col md:justify-between items-center p-8">
+                            <div className="flex md:flex-row flex-col items-center md:gap-[10rem] gap-[4rem] justify-around">
+                            <motion.div initial={{ x: 100, opacity: 0 }}
                                 whileInView={{ x: 0, opacity: 1 }}
                                 transition={{ duration: 1, ease: "easeOut" }}
                                 className="md:hidden block">
                                 <Image
                                     src={"/Graphics.jpg"}
-                                    alt="achidi-malik-novus"
+                                    alt="Achidi Malik, Novus Technologies, Fopa Lilian, Yvan Marshal"
                                     width={500}
                                     height={600}
                                     className="rounded-lg"
@@ -48,12 +49,13 @@ const SectionOne = () => {
                                 className="hidden md:block">
                                 <Image
                                     src={"/Graphics.jpg"}
-                                    alt="achidi-malik-novus"
+                                    alt="Achidi Malik, Novus Technologies, Fopa Lilian, Yvan Marshal"
                                     width={500}
                                     height={600}
                                     className="rounded-lg"
                                 />
                             </motion.div>
+                            </div>
                         </div>
                     </div>
                 </div>

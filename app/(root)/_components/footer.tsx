@@ -39,14 +39,14 @@ const NovusFooter = () => {
                 <div className="flex gap-4">
                 <div className="flex items-center justify-center pt-4">
                     <Link href={"https://www.instagram.com/novus.technologies/?igshid=OGQ5ZDc2ODk2ZA%3D%3D"}>
-                        <div className="p-2 rounded-full bg-gray-100 hover:bg-blue-500 hover:text-pink-600">
-                            <InstagramIcon />
+                        <div className="p-2 rounded-full bg-gray-100 hover:bg-blue-500 text-black hover:text-pink-600">
+                            <InstagramIcon/>
                         </div>
                     </Link>
                 </div>
                 <div className="flex items-center justify-center pt-4">
                     <Link href={"https://www.instagram.com/novus.technologies/?igshid=OGQ5ZDc2ODk2ZA%3D%3D"}>
-                        <div className="p-2 rounded-full bg-gray-100 hover:bg-pink-600 hover:text-blue-500">
+                        <div className="p-2 rounded-full bg-gray-100 text-black hover:bg-pink-600 hover:text-blue-500">
                             <MessageCircleMore />
                         </div>
                     </Link>

@@ -10,7 +10,7 @@ interface CardProps {
 
 const CustomCard = ({ src, title, description }: CardProps) => {
   return (
-    <Card className="w-full max-w-[400px]">
+    <Card className="w-full max-w-[400px] bg-white border-[0.5px] border-gray-300 shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out rounded-lg">
       <CardContent className="flex flex-col items-center justify-around p-6">
         <Image
           src={src || "/placeholder.svg"}
@@ -20,8 +20,8 @@ const CustomCard = ({ src, title, description }: CardProps) => {
           className="rounded"
           loading="eager"
         />
-        <h3 className="font-semibold pt-4 text-center text-lg">{title}</h3>
-        <p className="pt-2 text-sm">{description}</p>
+        <h3 className="font-semibold pt-4 text-center text-lg text-black">{title}</h3>
+        <p className="pt-2 text-sm text-muted-foreground">{description}</p>
       </CardContent>
     </Card>
   )
